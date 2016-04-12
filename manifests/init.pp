@@ -66,6 +66,7 @@ class varnish (
   $vcl_dir                      = undef,
   $shmlog_dir                   = '/var/lib/varnish',
   $shmlog_tempfs                = true,
+  $shm_reclen                   = '256',
   $version                      = present,
   $add_repo                     = true,
   $manage_firewall              = false,
