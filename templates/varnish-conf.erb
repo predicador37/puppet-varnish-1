@@ -74,7 +74,7 @@ VARNISH_STORAGE_SIZE=<%= scope.lookupvar('varnish_storage_size') %>
 VARNISH_SECRET_FILE=<%= scope.lookupvar('varnish_secret_file') %>
 #
 # # Default log record length
-VARNISH_SECRET_FILE=<%= scope.lookupvar('shm_reclen') %>
+SHM_RECLEN=<%= scope.lookupvar('shm_reclen') %>
 #
 # # Backend storage specification
 <% if scope.lookupvar('storage_type') == 'malloc' %>
